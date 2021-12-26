@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Команда</title>
+    <link rel="stylesheet" href="css/styles.css" >  
+    <link rel="stylesheet" href="css/animation-button-blinking.css"> 
+</head>
+<body> 
+    <div class="panel">
+        <div>
+            <img src="images/Home button.svg" alt="Home button" class="homebutton">
+        </div>
+        <div >
+            <input type="text" placeholder="Название проекта..." class="project-name">  
+        </div>
+        <div class="value">
+                15%
+        </div>
+        <div class="progress">
+            <progress min="0" max="100" value="5"></progress>
+            <div class="progress-value"></div>
+            <div class="progress-bg"><div class="progress-bar"></div></div>
+        </div>    
+    </div>
+    
+    <div class="complex">
+        
+        <a href="Page_menu.html"><p class="selector" id="menu">Меню</p></a>
+        <a><p class="selected">Команда</p></a>
+        <a href="Page_problem.html"><p class="selector">Проблема</p></a>
+        <a href="Page_goal.html"><p class="selector">Цель</p></a>
+        <a href="Page_MVP.html"><p class="selector">MVP</p></a>
+        <a href="Page_stages.html"><p class="selector">Этапы</p></a>
+        <a href="Page_td.html"><p class="selector">ТО</p></a>
+        <a href="Page_economic.html"><p class="selector">Экономика</p></a>
+        <a href="Page_files.html"><p class="selector">Файлы</p></a>
+    </div>
+        
+    <div class="card">
+        <div>
+            <a href="Page_files.html" class="left-arrow"><img src="images/Left button.png" alt="Left button" class="arrow"></a>
+        </div>
+        <div class="main">
+            <div class="title">
+                <div class="title-name">Команда </div>
+                <div class="team-info"data-title="Напиши имена участников и выбери их роль"><img src="images/info.svg" alt="information"></div> <!--всплывающая подсказка-->
+            </div>    
+            <div class="table files-body">
+                <div class="person-list">
+                    <div class="team-person file-load">
+                        <img src="images/icon.png" alt="icon">
+                        <input type="text" placeholder="Введите имя" class="text team-text">
+                        <select name="role" class="touch-selector team-selector">
+                            <option value="value1">Роль</option>
+                            <option value="value1">РОЛЬ1</option>
+                            <option value="value1">РОЛЬ2</option>
+                        </select>
+                    </div>
+                    
+                    <div class="team-person file-load">
+                        <img src="images/icon.png" alt="icon">
+                        <input type="text" placeholder="Введите имя" class="text team-text">
+                        <select name="role" class="touch-selector team-selector">
+                            <option value="value1">Роль</option>
+                            <option value="value1">РОЛЬ1</option>
+                            <option value="value1">РОЛЬ2</option>
+                        </select></td>
+                    </div>
+                </div>
+                <div class="person-adder">
+                    <div class="team-plus-button file-add">
+                        <div><img src="images/plus.png" alt="plus" class="plus"></div>
+                        <div class="plus-button"><button class="button">Добавить участника</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="Page_problem.html" class="right-arrow"><img src="images/Right button.png" alt="Right button" class="arrow right-arrow"></a>
+        </div>
+    </div>
+    <script src="js/arrow_controls.js"></script>
+    <script src="js/team.js"></script>
+</body>
+</html>

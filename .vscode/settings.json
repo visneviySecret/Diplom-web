@@ -1,0 +1,14 @@
+{
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        },]
+        
+        "liveSassCompile.settings.generateMap": false,
+    //autoprefix, will auto add perfix like -webkit- -moz-..
+    
+            
+}

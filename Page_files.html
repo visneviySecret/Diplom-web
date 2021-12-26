@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Файлы</title>
+    <link rel="stylesheet" href="css/styles.css" >   
+    <link rel="stylesheet" href="css/animation-file-attacher.css">
+
+</head>
+<body> 
+    <div class="panel">
+        <div>
+            <img src="images/Home button.svg" alt="Home button" class="homebutton">
+        </div>
+        <div >
+            <input type="text" placeholder="Название проекта..." class="project-name">  
+        </div>
+        <div class="value">
+                15%
+        </div>
+        <div class="progress">
+            <progress min="0" max="100" value="5"></progress>
+        </div>    
+    </div>
+    
+    <div class="complex">
+        
+        <a href="Page_menu.html"><p class="selector" id="menu">Меню</p></a>
+        <a href="Page_team.html"><p class="selector">Команда</p></a>
+        <a href="Page_problem.html"><p class="selector">Проблема</p></a>
+        <a href="Page_goal.html"><p class="selector">Цель</p></a>
+        <a href="Page_MVP.html"><p class="selector">MVP</p></a>
+        <a href="Page_stages.html"><p class="selector">Этапы</p></a>
+        <a href="Page_td.html"><p class="selector">ТО</p></a>
+        <a href="Page_economic.html"><p class="selector">Экономика</p></a>
+        <a><p class="selected">Файлы</p></a>
+    </div>
+        
+    <div class="card">
+        <div>
+            <a href="Page_economic.html" class="left-arrow"><img src="images/Left button.png" alt="Left button" class="arrow"></a>
+        </div>
+        <div class="main">
+            <div class="title">
+                <div class="title-name">Файлы</div>
+                <div class="team-info"data-title="Загрузи свой пароль"><img src="images/info.svg" alt="information"></div> <!--всплывающая подсказка-->
+            </div>    
+            <div class="files-body">                
+                <div class="files-data file-load">
+                    <div class="plus"><img src="images/plus.png" alt="plus" class="plus"></div>                                
+                    <button class="small-data">Загрузить файл
+                        <div class="filler-block"></div>
+                        <div class="background-data"></div>
+                    </button>
+                </div>
+                <div class="files-data file-load">
+                    <div class="plus"><img src="images/plus.png" alt="plus" class="plus"></div>                                
+                    <button class="small-data">Загрузить файл
+                        <div class="filler-block"></div>
+                        <div class="background-data"></div>
+                    </button>
+                </div>
+                <div class="files-data file-add">
+                    <div class="plus"><img src="images/plus.png" alt="plus" class="plus"></div>                                
+                    <button class="add-data">Добавить пункт</button>
+                </div>
+            </div>                                  
+        </div>
+        <div>
+            <a href="Page_team.html" class="right-arrow"><img src="images/Right button.png" alt="Right button" class="arrow"></a>
+        </div>
+    </div>
+    <script src="js/arrow_controls.js"></script>
+    <script src="js/file.js"></script>
+</body>
+</html>

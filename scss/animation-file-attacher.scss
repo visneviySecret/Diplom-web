@@ -1,0 +1,48 @@
+.filler-block{
+    position: absolute;
+    width: 227px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: -1;
+    background-color: white;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.small-data:hover .filler-block{
+    animation-name: colorsizechange;
+    animation-duration: 1s;
+    
+}
+@keyframes colorsizechange{
+    0%
+    {background-color: #ffffff;
+    width: 0%;
+    opacity: 0%;}
+    
+    50%
+    {background-color: #FDBA1A;
+    width: 70%;
+    opacity: 60%;
+     }
+
+    100%
+    {background-color: #ffffff;
+    width: 100%;
+    opacity: 0%;}
+}
+.add-data:hover{
+    animation: colorchange 1s infinite
+}
+
+@keyframes colorchange{
+    0%
+    {background-color: #BDD3CC;}
+    
+    50%
+    {background-color: #FDBA1A;}
+
+    100%
+    {background-color: #BDD3CC;}
+}

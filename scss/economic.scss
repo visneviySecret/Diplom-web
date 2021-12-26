@@ -1,0 +1,114 @@
+.main
+{
+    position: relative;
+}
+.economic-title{
+     display: flex; 
+    margin-left: 120px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    div:nth-child(2)
+    {
+        margin-left: 135px;
+    }
+    div:nth-child(3)
+    {
+        margin-left: 100px;
+    }
+    div:nth-child(4)
+    {
+        margin-left: 150px;
+    }
+}
+.economic-data-string{
+    display: flex;
+    margin-bottom: 14px;
+    .increment-number
+    {
+        background-color: #2D607C;
+        width: 30px;
+        height: 25px;
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding-top: 5px;
+        margin-top: 4px;
+    }
+    .economic-data::placeholder
+    {
+        color: #BDD3CC;
+        padding-left: 18px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .economic-data
+    {
+        border: none;
+        border-radius: 6px; 
+        height: 30px;
+    }
+    .economic-button
+    {
+        background-color: #BDD3CC;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 18px;
+        color: #2D607C;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    div:nth-child(1)
+    {
+        margin-left: 23px;
+    }
+    div:nth-child(2)
+    {
+        margin-left: 20px;
+    }
+    div:nth-child(3),div:nth-child(4),div:nth-child(5)
+    {
+        margin-left: 15px;
+    }
+    .plus-img{
+        margin-top: 4px;
+    }
+    .data-name
+    {
+        width: 227px;
+    }
+    .data-quantity
+    {
+        width:71px;
+    }
+    .data-price, .data-link 
+    {
+        width:170px;
+    }
+}
+
+.economic-total{
+    display: flex;
+    .total-block
+    {
+        text-align: center;
+        padding-top: 3px;
+        font-size: 18px;
+        width: 69px;
+        height: 27px;
+        border-radius: 6px;
+        
+    }
+    .total
+    {
+        background-color: #FDBA1A;
+        margin-right: 31px;
+    }
+    .summ{background-color: #BDD3CC;}
+}
+.economic-total-block
+{
+    position: absolute;
+    bottom: 30px;
+    right: 240px;
+}

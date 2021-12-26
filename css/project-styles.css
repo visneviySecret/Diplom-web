@@ -1,0 +1,255 @@
+:root {
+    --color-deep-blue: #2D607C;
+    --color-dark-blue: #193C50;
+    --color-light-green: #A6C8BE;
+}
+.project-status{
+    display: flex;
+    margin-bottom: 40px;
+}
+.fill-project{   
+    background-color: #FDBA1A;
+    height: 46px;
+    width: 261px;
+    border-radius: 10px;
+    padding-top: 15px;
+    margin-top: 40px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.indicators{
+    display: flex;
+    margin-left: 40px;
+}
+.indicator{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 60px;
+    background-color: #BDD3CC;
+}
+.card-pack{
+    margin: 0px auto;
+    margin-top: 35px;
+    width: 1172px;
+}
+.blank{
+    background-color: #EFECEC;
+    min-height: 323px;
+    border-radius: 10px;
+}
+.title-head{
+    width: 100%-15px;
+    height: 45px;
+    background-color: #2D607C;
+    border-radius: 10px;
+    color: white;
+    padding-left: 25px;
+    padding-top: 15px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.edit{
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+}
+.edit:hover{
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.box-1{
+    width: 48.5%;
+    min-height: 469px;
+}
+.box-2{
+    width: 31.5%
+}
+.box-3{
+    width: 150%;   
+}
+.box-4{
+    width: 65%;
+}
+.box-5{
+    width: 31.5%;
+}
+.blank-body{
+    max-width: 480px;
+    margin: 0px auto;
+}
+.blank-header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.blank-header div:nth-child(2){
+    margin-left: 215px;
+}
+.blank-header div:nth-child(3){
+    margin-left: 40px;
+}
+.stages-name-string{
+    width: 100%;
+    min-height: 25px;
+    background-color:  var(--color-light-green);
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 6px;
+    color: var(--color-dark-blue);
+    font-weight: 700; 
+    font-size: 18px;
+}
+.stages-data-string{
+    display: flex;
+    width: 95%;
+    margin-left: 38px;
+    margin-top: 2px;
+}
+.plusik{
+    margin-left: 38px;
+    margin-top: 6px;
+}
+.team-main{
+    max-width: 446px;
+    margin: 0px auto;
+    margin-top: 21px;
+}
+.team-person{
+    display: flex;
+    margin-bottom: 37px;
+}
+.team-person div:nth-child(2){
+    margin-left: 36px;
+}
+.person-status{
+    margin-top: 15px;
+    height: 26px;    
+    border: none;
+    border-radius: 6px;
+    padding-left: 18px;
+    padding-top: 4px;
+}
+.person-name::placeholder, .person-role::placeholder{
+    color: var(--color-dark-blue);
+    font-size: 18px;
+    font-weight: 600;
+}
+.person-name{
+    max-width: 212px;
+    min-width: 100px;
+}
+.person-role{
+    width: 107px;
+    margin-left: 36px;
+}
+.text-conteiner-short{
+    max-width: 333px;
+    margin-top: 30px;
+    margin-left: 15px;   
+}
+.text-conteiner-long{
+    max-width: 1132px;
+    margin-top: 30px;
+    margin-left: 15px;  
+}
+.textarea-menu::placeholder{
+    color: var(--color-dark-blue);
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: 700;
+}
+.textarea-menu{
+    border-radius: 7px;
+    border: none; 
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.economic-menu{
+    max-width: 734px;
+    margin: 0px auto;
+}
+.economic-title-menu {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 17px;
+    margin-bottom: 9px;
+  }
+  .economic-title-menu div:nth-child(2) {
+    margin-left: 160px;
+  }
+  .economic-title-menu div:nth-child(3) {
+    margin-left: 35px;
+  }
+  .economic-title-menu div:nth-child(4) {
+    margin-left: 55px;
+  }
+  .increment-number-menu {
+    background-color: var(--color-light-green);
+    width: 30px;
+    height: 25px;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--color-dark-blue);
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 700;
+  }
+  .economic-data-string-menu .economic-data-menu::placeholder {
+    color: var(--color-dark-blue);
+    padding-left: 18px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+ 
+  .economic-data-string-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .economic-data-menu {
+    border: none;
+    border-radius: 6px;
+    height: 28px;
+  }
+.data-name-menu{
+    width: 212px;
+}
+.data-quantity-menu{
+    width: 71px;
+}
+.data-price-menu{
+    width: 71px;
+}
+.data-link-menu{
+    width: 250px;
+}
+.file-conteiner{
+    margin-top: 30px;
+    margin-left: 14px;
+    max-width: 314px;
+}
+.file-box{
+    color: var(--color-dark-blue);
+    font-size: 18px;
+    width: 100%;
+    padding-left: 19px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 8px;
+    height: 25px;
+    margin-bottom: 30px;    
+}

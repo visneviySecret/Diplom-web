@@ -1,0 +1,14 @@
+.button:hover, .block-info:hover, .economic-button:hover {
+    animation: colorsizechange 1s infinite
+}
+
+@keyframes colorsizechange{
+    0%
+    {background-color: #BDD3CC;}
+    
+    50%
+    {background-color: #FDBA1A;}
+
+    100%
+    {background-color: #BDD3CC;}
+}

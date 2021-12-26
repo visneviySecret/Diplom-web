@@ -1,0 +1,1 @@
+.button:hover,.block-info:hover,.economic-button:hover{-webkit-animation:colorsizechange 1s infinite;animation:colorsizechange 1s infinite}@-webkit-keyframes colorsizechange{0%{background-color:#bdd3cc}50%{background-color:#fdba1a}100%{background-color:#bdd3cc}}@keyframes colorsizechange{0%{background-color:#bdd3cc}50%{background-color:#fdba1a}100%{background-color:#bdd3cc}}

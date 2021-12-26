@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Техническое описание</title>
+    <link rel="stylesheet" href="css/styles.css" >   
+    <link rel="stylesheet" href="css/animation-button-blinking.css">
+</head>
+<body> 
+    <div class="panel">
+        <div>
+            <img src="images/Home button.svg" alt="Home button" class="homebutton">
+        </div>
+        <div >
+            <input type="text" placeholder="Название проекта..." class="project-name">  
+        </div>
+        <div class="value">
+                15%
+        </div>
+        <div class="progress">
+            <progress min="0" max="100" value="5"></progress>
+        </div>    
+    </div>
+    
+    <div class="complex">
+        
+        <a href="Page_menu.html"><p class="selector" id="menu">Меню</p></a>
+        <a href="Page_team.html"><p class="selector">Команда</p></a>
+        <a href="Page_problem.html"><p class="selector">Проблема</p></a>
+        <a href="Page_goal.html"><p class="selector">Цель</p></a>
+        <a href="Page_MVP.html"><p class="selector">MVP</p></a>
+        <a href="Page_stages.html"><p class="selector">Этапы</p></a>
+        <a><p class="selected">ТО</p></a>
+        <a href="Page_economic.html"><p class="selector">Экономика</p></a>
+        <a href="Page_files.html"><p class="selector">Файлы</p></a>
+    </div>
+        
+    <div class="card">
+        <div>
+            <a href="Page_stages.html" class="left-arrow"><img src="images/Left button.png" alt="Left button" class="arrow"></a>
+        </div>
+        <div class="main">
+            <div class="title">
+                <div class="title-name">Техническое описание</div>
+                <div class="team-info"data-title="Nt[ybxtcrb jgbib"><img src="images/info.svg" alt="information"></div> <!--всплывающая подсказка-->
+            </div>    
+                
+            <div class="problem">
+            <div class="card-left">
+                <div class="text-list">
+                    <div class="text-area-block">
+                        <div class="strings">Техническое решение</div>
+                        <textarea name="area" id="" cols="30" rows="10" placeholder="Текст" class="textarea"></textarea>
+                    </div>
+                </div>
+            </div>   
+            
+            <div class="card-right">
+                <div class="strings combo-label">Добавить</div>
+                <div class="parameters-list">
+                    <div class="combo" onclick="addTextBlock(this)">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <div class="block-info">
+                            <div>Решение</div>
+                            <div class="info"data-title="человек"><img src="images/blue_info.svg" alt="information"></div>
+                        </div>
+                    </div>
+                    <div class="combo" onclick="addTextBlock(this)">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <div class="block-info">
+                            <div>Оборудование</div>
+                            <div class="info"data-title="но"><img src="images/blue_info.svg" alt="information"></div>
+                        </div>
+                    </div>
+                    <div class="combo" onclick="addTextBlock(this)">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <div class="block-info">
+                            <div>Материалы</div>
+                            <div class="info"data-title="паук"><img src="images/blue_info.svg" alt="information"></div>
+                        </div>
+                    </div>
+                    <div class="combo" onclick="addTextBlock(this)">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <div class="block-info">
+                            <div>Аналоги</div>
+                            <div class="info"data-title="и к тому же"><img src="images/blue_info.svg" alt="information"></div>
+                        </div>
+                    </div>
+                    <div class="combo" onclick="addTextBlock(this)">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <div class="block-info">
+                            <div>Схема</div>
+                            <div class="info"data-title="Жук"><img src="images/blue_info.svg" alt="information"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parametr-adder">
+                    <div class="combo">
+                        <div class="plus"><img src="images/mini_plus.svg" alt="plus"></div>
+                        <input type="text" placeholder="Введите область"class="block-input">
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+        <div>
+            <a href="Page_economic.html" class="right-arrow"><img src="images/Right button.png" alt="Right button" class="arrow"></a>
+        </div>
+    </div> 
+    <script src="js/arrow_controls.js"></script>
+    <script src="js/add_parameter.js"></script>
+</body>
+</html>

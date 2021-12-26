@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parameters">
+        <div class="parameter">
+            <div class="title"></div>
+            <text>Добавленный блок</text>
+        </div>
+        <div class="parameter">
+            <div class="title"></div>
+            <text>Ещё один блок</text>
+        </div>
+        <div class="parameter">
+            <div class="title"></div>
+            <text>Последний блок</text>
+        </div>
+    </div>
+<hr>
+<div class="list">
+    <div class="block">
+        <div class="title">Начальный блок</div>
+        <input class="textarea">
+    </div>
+</div>  
+
+<script>
+    let list = document.querySelector('.list')
+    let block = document.querySelector('.block')
+    let parameters = document.querySelector('.parameters')
+    let parameter = document.querySelector('.parameter')
+    let allParameters = document.querySelectorAll('.parameter')
+    
+
+    console.dir(parameters.childNodes)
+    for (i=0; i <=2; i ++){
+        allParameters[i].addEventListener('click', function()
+        {
+        console.log(this)
+        })
+    }
+    
+</script>
+</body>
+</html>

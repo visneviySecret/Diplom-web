@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MVP</title>
+    <link href="css/styles.css" rel="stylesheet">   
+</head>
+<body> 
+    <div class="panel">
+        <div>
+            <img src="images/Home button.svg" alt="Home button" class="homebutton">
+        </div>
+        
+            <input type="text" placeholder="Название проекта..." class="project-name">  
+        
+        <div class="value">
+                15%
+        </div>
+        <div class="progress">
+            <progress min="0" max="100" value="5"></progress>
+        </div>    
+    </div>
+    
+    <div class="complex">
+        <a href="Page_menu.html"><p class="selector" id="menu">Меню</p></a>
+        <a href="Page_team.html"><p class="selector">Команда</p></a>
+        <a href="Page_problem.html"><p class="selector">Проблема</p></a>
+        <a href="Page_goal.html"><p class="selector">Цель</p></a>
+        <a><p class="selected">MVP</p></a>       
+        <a href="Page_stages.html"><p class="selector">Этапы</p></a>
+        <a href="Page_td.html"><p class="selector">ТО</p></a>
+        <a href="Page_economic.html"><p class="selector">Экономика</p></a>
+        <a href="Page_files.html"><p class="selector">Файлы</p></a>
+    </div>
+        
+    <div class="card">
+        <div>
+            <a href="Page_goal.html" class="left-arrow"><img src="images/Left button.png" alt="Left button" class="arrow"></a>
+        </div>
+        <div class="main">
+            <div class="title">
+                <div class="title-name">MVP</div>
+                <div class="team-info"data-title="Most valueble player"><img src="images/info.svg" alt="information"></div> <!--всплывающая подсказка-->
+            </div>    
+            <div class="pattern-title strings">Шаблон MVP<div class="team-info"data-title="Используй подсказки для заполнения или не используй"><img src="images/info.svg" alt="information"></div> </div>    
+               
+            <div class="pattern">
+               
+               <div class="strings child"> Это </div>
+               <div class="child">
+               <input type="text" placeholder="сервис, приложение, объект" class="text-small">
+               </div>
+               <select name="which" class="touch-selector child">
+                   <option value="value">который</option>
+                   <option value="value1">которая</option>
+                   <option value="value2">которые</option>
+                   <option value="value3">которое</option>
+               </select>
+               
+               <select name="Help" class="touch-selector child">
+                   <option value="value">помогает</option>
+                   <option value="value1">помогают</option>
+                   <option value="value2">помогага</option>
+                   <option value="value3">помощьь</option>
+               </select>
+               
+               <input type="text" placeholder="кому" class="mini-text child">
+               
+               <div class="strings child">решить проблему, при помощи</div>
+               
+               <input type="text" placeholder="решение" class="mini-text child">
+               
+               <div class="strings child">и даёт</div>
+               
+               <input type="text" placeholder="выгода, ценность для клиента" class="text-small child">
+            </div>
+            <div>
+            <div class="pattern-title strings">MVP</div>
+            <textarea name="area" id="" cols="30" rows="10" placeholder="Текст" class="pattern-title textarea"></textarea>
+            </div>    
+        </div>
+        <div>
+            <a href="Page_stages.html" class="right-arrow"><img src="images/Right button.png" alt="Right button" class="arrow"></a>
+        </div>
+    </div>
+    <script src="js/arrow_controls.js"></script>
+</body>
+</html>
