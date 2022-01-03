@@ -6,7 +6,7 @@ const parameterBlock = parameters.firstElementChild
 function addTextBlock(element)
 {
     trashBin = document.createElement('img')
-    trashBin.src="images/cross.svg"
+    trashBin.src="/images/cross.svg"
     trashBin.style.width = '1rem'
     trashBin.style.position = 'absolute'
     trashBin.classList = "cross"

@@ -5,7 +5,7 @@ const personAdder = document.querySelector('.person-adder')
 
 fileAdd.addEventListener('click', addNewLoading)
 const trashBin = document.createElement('img')
-trashBin.src="images/trash.svg"
+trashBin.src="/images/trash.svg"
 trashBin.classList.add('trash-bin')
 trashBin.style.marginLeft = '10px'
 trashBin.style.marginRight = '1.6rem'

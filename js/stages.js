@@ -16,7 +16,7 @@ function addElement(element)                //Функция добавлени�
     if(stagesAdder.childElementCount === 1)
     {   
         trashBin = document.createElement('img')
-        trashBin.src="images/trash.svg"
+        trashBin.src="/images/trash.svg"
         trashBin.classList.add('trash-bin')
         trashBin.style.marginLeft = '15px'
         trashBin.style.width = '0.8rem'

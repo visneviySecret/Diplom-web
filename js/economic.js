@@ -6,7 +6,7 @@ const adder = document.querySelector('.adder')
 
 add.addEventListener('click', addNew)
 const trashBin = document.createElement('img')
-trashBin.src="images/trash.svg"
+trashBin.src="/images/trash.svg"
 trashBin.classList.add('trash-bin')
 trashBin.style.marginLeft = '10px'
 trashBin.style.marginRight = '0.5rem'

@@ -15,7 +15,7 @@ function addNewLoading()
         //Создаём переменную, ярлык и класс для элемента удаления
     const trashBin = document.createElement('img')
     trashBin.addEventListener('click', deleteLoading)
-    trashBin.src="images/trash.svg"
+    trashBin.src="/images/trash.svg"
     trashBin.classList.add('trash-bin')
         //Стилизация, которую не получилось подсоединить через CSS
     trashBin.style.marginLeft = '20px'
